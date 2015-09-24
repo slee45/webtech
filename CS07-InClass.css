@@ -1,3 +1,13 @@
 ﻿table{ width: 500px; margin-left: auto; margin-right:auto; font-family: arial; }
 tr, td {border: 1px solid black; padding: 3px; vertical-align: top; }
 img{ width: 100%}
+td.pic{width: 70%;}
+td#last{width:30%}
+td.size{width:35%}
+body {background-image: url(images/music.gif)}
+p.scroll{Background-color: lime;
+Width: 250px; height: 300px;
+Overflow: scroll;
+Padding-right:10px;
+Padding-left:10px}
+
