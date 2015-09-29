@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+
+	    <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+	    <title></title>
+        <style type="text/css">
+        h1 {color: Navy; text-align:center;font-family: 'Lucia Bright'}
+        form {background-color: silver; color:navy; font-family: arial; margin-top: 50px; margin-bottom: 50px; margin-left: 100px; margin-right:100px; padding-top: 20px; padding-bottom: 20px; padding-right:50px; padding-left:100px}
+        </style>
+ </head>
+
+    <body>
+	    <!-- Your HTML goes here -->
+        <h1> Web Forms- CS08-InClass </h1>
+        <form method="post" action="mailer.php">
+      <p> Last Name:
+          <input type="text" name="lName" maxlength="100" size="20" value="Enter last name"/>  First Name:
+              <input type="text" name= "FName" maxlength="100" size="20" value="Enter first name"/> </p>
+          <p> Gender:
+            Male <input type="radio" name="gender" value="male" />
+            Female <input type="radio" name="gender" value="female" /> </p>
+            <p> My favorite Web Tech topics are <br />
+<input type="checkbox" name="Q1" value="Basic HTML" /> Basic HTML <br />
+<input type="checkbox" name="Q1" value="CSS" /> CSS <br />
+<input type="checkbox" name="Q1" value="Tables" /> Tables <br/>
+<input type="checkbox" name="Q1" value="FORMS" /> FORMS </P>
+
+<p>What grade do you expect to receive? 
+<select name="state">
+	<option value="A">A</option>
+    <option value="A-">A- </option>
+    <option value="B+">B+</option>
+	<option value="B">B</option>
+    <option value="B-">B-</option>
+    <option value="C+">C+</option>
+	<option value="C">C</option>
+        </select></p>
+<textarea name="comments" rows="5" cols="29">Please add any comments you have</textarea>
+<p>
+<button type="submit" name="submit" value="submit">
+	SUBMIT <img src="images/mailbox.png"  height="30" alt="submit_button" /> </button>
+</button>
+<button type="reset" name="reset" value="reset">
+    RESET <img src="images/reset.png" height="30" alt="reset_button" /> </button> </p>
+
+
+
+
+        </form>
+   
+    
+    </body>
+</html>
