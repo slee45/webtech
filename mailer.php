@@ -1,7 +1,7 @@
 <?PHP 
 $to = "zli@babson.edu"; 
 $subject = "Results from your Survey form";
-$headers = "From: Form Mailer";
+$headers = "From: slee45@babson.edu";
 $forward = 0;
 $location = "";
 
